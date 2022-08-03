@@ -9,9 +9,13 @@ public class Menu {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		int opcion;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		InvitadosSet invitados = new InvitadosSet();
+		GolosinasMap golosinas = new GolosinasMap();
+		JuegosQueue juegos = new JuegosQueue();
+		MarcasList marcas = new MarcasList();
+		
 		
 		do {
-
 			System.out.println("\nMenu\n");
 			System.out.println("1. Ejercicio ArrayList Marcas");
 			System.out.println("2. Ejercicio Set Invitados");
@@ -27,17 +31,27 @@ public class Menu {
 
 		} while (opcion > 5 || opcion < 1);
 		
+		
 		switch(opcion) {
 		
 		case 1:
+			marcas.marcasLista();
 			
 		case 2:
-			InvitadosSet invitados = new InvitadosSet();
 			invitados.agregarInvitados();
 			invitados.posiblesInvitados();
 			invitados.mostrarInvitados();
 			invitados.adiosJorge();
 			invitados.mostrarInvitados();
+		
+		case 3:
+			golosinas.agregarGolosinas();
+			golosinas.mostrarGolosinas();
+			golosinas.filtrarGolosinas(100);
+			
+		case 4:
+			juegos.juegos();
+
 		}
 
 	}
