@@ -7,6 +7,7 @@ public class JuegosQueue {
 	public void juegos () {
 	
 	Queue <String> juegos = new LinkedList<>();
+	
 	juegos.add("Tombo");
 	juegos.add("Congelado");
 	juegos.add("Quemaditas");
