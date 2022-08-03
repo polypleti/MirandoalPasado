@@ -35,7 +35,7 @@ public class MarcasList {
 		posiblesMarcas.add("Marquis");
 		posiblesMarcas.add("Chanelle");
 		posiblesMarcas.add("Soprole");
-		System.out.println("\n-Se incorporan posibles marcas a collecion marcas");
+		System.out.println("\n-Se incorporan posibles marcas a coleccion marcas");
 		marcas.addAll(posiblesMarcas); 
 	
 		System.out.println(marcas);
