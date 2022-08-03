@@ -37,7 +37,7 @@ public class GolosinasMap {
 	 //Filtra el mapa creando uno nuevo con valores menores al que ingresa por parametro
 	public TreeMap<String,Integer> filtrarGolosinas(int maximo) {
 		TreeMap <String,Integer> mapaFiltrado = new TreeMap<String,Integer>();
-		System.out.println("Golosinas Filtradas:");
+		System.out.println("\nGolosinas Filtradas:");
 
 		for(Map.Entry<String,Integer> entry : golosinas.entrySet()) {
 			  String key = entry.getKey();
@@ -45,7 +45,7 @@ public class GolosinasMap {
 			  
 			  if(value < 100) {
 				  mapaFiltrado.put(key, value);
-				  System.out.print(key + value +", ");
+				  System.out.print(key +" "+ value +", ");
 			  }
 		}
 		return mapaFiltrado;
@@ -56,7 +56,7 @@ public class GolosinasMap {
 		for(Map.Entry<String,Integer> entry : golosinas.entrySet()) {
 			  String key = entry.getKey();
 			  Integer value = entry.getValue();
-			  System.out.println(key + value +", ");
+			  System.out.print(key +" "+ value +", ");
 		}
 	}
 	

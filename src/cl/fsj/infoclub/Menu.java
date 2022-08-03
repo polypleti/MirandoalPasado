@@ -36,22 +36,24 @@ public class Menu {
 		
 		case 1:
 			marcas.marcasLista();
-			
+			break;
 		case 2:
 			invitados.agregarInvitados();
 			invitados.posiblesInvitados();
 			invitados.mostrarInvitados();
 			invitados.adiosJorge();
 			invitados.mostrarInvitados();
-		
+			break;
 		case 3:
 			golosinas.agregarGolosinas();
 			golosinas.mostrarGolosinas();
 			golosinas.filtrarGolosinas(100);
-			
+			break;
 		case 4:
 			juegos.juegos();
-
+			break;
+		case 5:
+			break;
 		}
 
 	}
