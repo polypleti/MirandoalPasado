@@ -1,8 +1,6 @@
 package cl.fsj.infoclub;
 
-import java.util.LinkedList;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.TreeMap;
 
 public class GolosinasMap {
@@ -41,6 +39,5 @@ public class GolosinasMap {
 		}
 		return mapaFiltrado;
 	}
-	
 	
 }
