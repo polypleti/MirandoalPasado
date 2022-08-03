@@ -2,7 +2,7 @@ package cl.fsj.infoclub;
 
 import java.util.ArrayList;
 
-public class Marcas {
+public class MarcasList {
 	
 	public static void main(String[] args) {
 	ArrayList<String> marcas = new ArrayList<String>();
