@@ -57,6 +57,10 @@ public class InvitadosSet {
 	public void mostrarInvitados() {
 		System.out.println("Los invitados son:\n" + this.toString());
 	}
+	
+	public void adiosJorge() {
+		posiblesInvitados.remove("Jorge");
+	}
 
 	@Override
 	public String toString() {
