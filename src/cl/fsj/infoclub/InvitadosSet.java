@@ -7,7 +7,7 @@ public class InvitadosSet {
 
 	public void invitados () {
 		
-	 Set <String>invitados = new TreeSet <String>();
+	 Set <String>invitados = new TreeSet <>();
 		
 		invitados.add("Daniel");
 		invitados.add("Paola");
@@ -16,6 +16,8 @@ public class InvitadosSet {
 		invitados.add("Jacinta");
 		invitados.add("Florencia");
 		invitados.add("Juan Pablo");
+		
+	
 		
 	}
 }
